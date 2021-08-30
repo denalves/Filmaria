@@ -24,7 +24,7 @@ const Favoritos = () => {
     <div id="meus-filmes">
       <h1>Meus Filmes</h1>
 
-      {filmes.length === 0 && <span>você nao possui nenhum filme salvo.</span>}
+      {filmes.length === 0 && <span>você não possui filmes salvos.</span>}
       <ul>
         {filmes.map((item) => {
           return (
